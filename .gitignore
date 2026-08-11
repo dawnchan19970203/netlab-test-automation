@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+evn32/
+
+logs/
+reports/
+artifacts/
+
+*.pyc

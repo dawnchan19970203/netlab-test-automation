@@ -1,0 +1,13 @@
+links:
+  r1_r2:
+    r1:
+      interface: GigabitEthernet0/1
+      ip: 10.0.12.1
+
+    r2:
+      interface: GigabitEthernet0/0
+      ip: 10.0.12.2
+
+loopbacks:
+  r1: 10.255.0.1
+  r2: 10.255.0.2

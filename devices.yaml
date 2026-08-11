@@ -1,0 +1,28 @@
+devices:
+  r1:
+    device_type: cisco_ios
+    host: 172.16.100.11
+    port: 22
+    username: netlab
+    password: admin123
+
+    conn_timeout: 10
+    auth_timeout: 10
+    banner_timeout: 15
+
+    use_keys: false
+    allow_agent: false
+
+  r2:
+    device_type: cisco_ios
+    host: 172.16.100.11
+    port: 22
+    username: admin
+    password: admin
+
+    conn_timeout: 10
+    auth_timeout: 10
+    banner_timeout: 15
+
+    use_keys: false
+    allow_agent: false
